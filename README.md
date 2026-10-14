@@ -56,3 +56,7 @@ uv run scripts/analyze.py board --box X,Y,边长 --out board.png 原图.png out/
 
 - [ComfyUI-GPT-Image-Latent-Refiner](https://github.com/AIEGOBOT/ComfyUI-GPT-Image-Latent-Refiner)：在 Qwen-Image / FLUX.2 / SDXL 的潜空间里修 GPT 的点状噪声，作者建议接在 SeedVR2 前面。需要 ComfyUI 和 GPU，未测。
 - Real-CUGAN / Real-ESRGAN 动漫模型、OpenModelDB 上的 1x 降噪模型（用 chaiNNer 跑）：未测。
+
+## License
+
+[MIT](LICENSE)。waifu2x-ncnn-vulkan 由 `setup_waifu2x.py` 从上游下载，遵循其自身的 MIT 协议，不随本仓库分发。
